@@ -1,0 +1,59 @@
+canvas{
+    background: green;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.score{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.button {
+    width: 400px;
+    padding: 20px;
+    background: blue;
+    color: white;
+    border: 0;
+    font-size: 32px;
+}
+
+.mobile-controller{
+    max-width: 610px;
+    padding: 10px;
+
+    margin: 100px auto 0;
+}
+
+.top,
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-controller .middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-btn{
+    width: 200px;
+    height: 200px;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    font-weight: bold;
+}
